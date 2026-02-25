@@ -1,4 +1,4 @@
-module github.com/minio/madmin-go/v4
+module github.com/stanford-rc/madmin-go/v4
 
 go 1.25
 
@@ -58,3 +58,13 @@ require (
 	golang.org/x/tools v0.37.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
 )
+
+replace github.com/minio/crc64nvme => github.com/stanford-rc/minio-crc64nvme v1.0.2
+
+replace github.com/minio/md5-simd => github.com/stanford-rc/minio-md5-simd v1.1.2
+
+replace github.com/minio/minio-go/v7 => github.com/stanford-rc/minio-go/v7 v7.0.94
+
+replace github.com/minio/mux => github.com/stanford-rc/minio-mux v1.8.2
+
+replace github.com/minio/pkg/v3 => github.com/stanford-rc/minio-pkg/v3 v3.4.0
