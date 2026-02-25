@@ -24,7 +24,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/minio/madmin-go/v4/xtime"
+	"github.com/stanford-rc/madmin-go/v4/xtime"
 	miniogo "github.com/minio/minio-go/v7"
 )
 
