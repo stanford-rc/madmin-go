@@ -1,4 +1,4 @@
-module github.com/minio/madmin-go/v3
+module github.com/stanford-rc/madmin-go/v3
 
 go 1.24.0
 
